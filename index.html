@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CMH Coin Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>🚀 CMH COIN TRACKER</h1>
+<p>Track crypto prices, trends and watchlist in real time.</p>  
+
+   <div class="search-section">
+
+    <h3>🔍 Coin Search</h3>
+
+    <input type="text"
+           id="coinInput"
+           placeholder="Enter coin name">
+
+    <input type="number"
+           id="alertPrice"
+           placeholder="Optional alert price">
+
+    <button id="getPriceBtn">
+        Get Price
+    </button>
+
+</div>
+
+<div class="action-section">
+
+    <button id="trendingBtn">
+        📈 Trending Coins
+    </button>
+
+    
+    <button id="watchlistBtn">
+        ⭐ My Watchlist
+    </button>
+
+    <button id="addWatchlistBtn">
+        ➕ Add To Watchlist
+    </button>
+   
+
+</div>
+
+   <div id="result">
+    Search for a coin...
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+<footer>
+    Powered by CoinGecko API
+</footer>
+
+</body>
+</html>
